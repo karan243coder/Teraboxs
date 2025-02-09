@@ -171,7 +171,7 @@ async def start_command(client, message):
             "🌟 I am a terabox downloader bot. Send me any terabox link and I will download it within a few seconds and send it to you ✨."
         )
         join_button = InlineKeyboardButton("Join ❤️🚀", url="https://t.me/bimbobot69")
-        developer_button = InlineKeyboardButton("⚡️", url="https://t.me/+rKJigZfwTlExOGFl")
+        developer_button = InlineKeyboardButton("⚡️", url="https://t.me/dumphoga")
         reply_markup = InlineKeyboardMarkup([[join_button, developer_button]])
         await message.reply_text(reply_message, reply_markup=reply_markup)
     else:
@@ -308,7 +308,7 @@ async def handle_message(client, message: Message):
     is_member = await is_user_member(client, user_id)
 
     if not is_member:
-        join_button = InlineKeyboardButton("Join ❤️🚀", url="https://t.me/terabox_downloader_botfree")
+        join_button = InlineKeyboardButton("Join ❤️🚀", url="https://t.me/dumphoga")
         reply_markup = InlineKeyboardMarkup([[join_button]])
         await message.reply_text("You must join my channel to use me.\n AFTER JOIN USE THIS COMMAND- /start ", reply_markup=reply_markup)
         return
