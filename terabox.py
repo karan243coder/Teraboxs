@@ -29,17 +29,17 @@ if not ADMINS:
     logging.error("ADMINS variable is missing! Exiting now")
     exit(1)
     
-api_id = os.environ.get('TELEGRAM_API', '25377875')
+api_id = os.environ.get('TELEGRAM_API', '23171051')
 if not api_id:
     logging.error("TELEGRAM_API variable is missing! Exiting now")
     exit(1)
 
-api_hash = os.environ.get('TELEGRAM_HASH', 'cf80e342be48570ca2e4c9d2c7695413')
+api_hash = os.environ.get('TELEGRAM_HASH', '10331d5d712364f57ffdd23417f4513c')
 if not api_hash:
     logging.error("TELEGRAM_HASH variable is missing! Exiting now")
     exit(1)
     
-bot_token = os.environ.get('BOT_TOKEN', '7258041551:AAF81cY7a2kV72OUJLV3rMybTSJrj0Fm-fc')
+bot_token = os.environ.get('BOT_TOKEN', '7429555769:AAFE1d5EX_F0J9AH_P5QgPuqyttv6VXH1PI')
 if not bot_token:
     logging.error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
