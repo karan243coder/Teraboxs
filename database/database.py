@@ -8,7 +8,7 @@ user_data = database['users']
 
 # Default verify status
 default_verify = {
-    'is_verified': False,
+    'is_verified': True,
     'verified_time': 0,
     'verify_token': "",
     'link': ""
